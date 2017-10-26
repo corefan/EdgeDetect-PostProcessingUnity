@@ -11,6 +11,9 @@ Port of the legacy Unity "Edge Detect Normals" image effect to Post Processing S
 
 Place the `EdgeDetect-PostProcessingUnity` folder anywhere in your project, and make sure that [Post Processing Stack v2](https://github.com/Unity-Technologies/PostProcessing/tree/v2) is in the project as well.
 
+You may also have to change the include path of `StdLib.hlsl` in `EdgeDetectNormalsPostProcess.shader`, depending on where you install the Post Processing Stack v2.
+By default it is set to `"Assets/PostProcessing/PostProcessing/Shaders/StdLib.hlsl"`.
+
 ## Usage
 
 The new effect should be available for a post processing profile under:
